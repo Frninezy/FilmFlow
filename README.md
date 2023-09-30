@@ -1,17 +1,19 @@
-# movie-recommendation-on-description
-Telegram bot that recommends movies based on movie description similarity (content-based recommender system)
+# FilmFlow
 
+This Telegram bot offers movie recommendations by analyzing the similarity between movie descriptions using a content-based recommender system.
 
+## How it Works
 
-Recommender work on film description similarity. Film description breaks down into tags.
+The bot operates in two main modes:
 
-There are two regime of work:
-- In regime initiated by button "Write film themes you are interested in", user message breaks down into tags too, 
-and films with higher tags similarity to user tags would be shown.
-- In regime initiated by button "Write a few of your favourite films, separated by semicolumn", films mentioned by user
-would be found in data, union of their tags would be used fo search. In case if there are a few movies with the same name in data 
-user would be offered to choose from them with more film data provided.
+1. **Interest-Based Recommendations:** 
+   - Initiated by clicking the "Write film themes you are interested in" button.
+   - User messages are broken down into tags.
+   - Films with tags most similar to the user's interests are recommended.
 
-Data is extract from this dataset: https://www.kaggle.com/stefanoleone992/imdb-extensive-dataset
+2. **Favorites-Based Recommendations:** 
+   - Initiated by clicking the "Write a few of your favorite films, separated by semicolons" button.
+   - User-specified movies are located in the dataset, and their tags are combined for searching.
+   - If multiple movies with the same name are found, the user is prompted to choose from them, with additional film data provided for clarity.
 
-
+This bot simplifies the process of discovering new movies that align with your interests or favorite films.
