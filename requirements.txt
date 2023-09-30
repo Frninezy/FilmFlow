@@ -1,0 +1,6 @@
+re
+telebot
+spacy
+numpy
+pandas
+unittest
