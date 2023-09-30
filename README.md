@@ -17,3 +17,9 @@ The bot operates in two main modes:
    - If multiple movies with the same name are found, the user is prompted to choose from them, with additional film data provided for clarity.
 
 This bot simplifies the process of discovering new movies that align with your interests or favorite films.
+
+## Installation 
+
+```bash
+   cd FilmFlow
+   pip install -r requerments.txt
